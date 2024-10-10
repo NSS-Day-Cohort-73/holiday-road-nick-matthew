@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Road</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="details">
+
+        </div>
+    </div>
+    <header>
+        <div class="row">
+            <img class="logo" src="assets/holidayroadlogo.png">
+            <h1>Holiday Road</h1>
+        </div>
+    </header>
+    <main class="column" id="container">
+        <div class="row dropdown-container">
+            <div id="parks-dropdown-container">
+                <!-- <select id="parks-dropdown">
+                    <option
+                    data-state="${state}"
+                    data-name="${parkname}"
+                    data-parkid="${parkid}">
+                    Option 1
+                    </option>
+                </select> -->
+            </div>
+            <div id="attraction-dropdown-container">
+                <!-- <select id="attraction-dropdown">
+                    <option
+                    data-name="${attractionname}"
+                    data-parkid="${attractionid}">
+                    Option 1
+                    </option>
+                </select> -->
+            </div>
+            <div id="eaterie-dropdown-container">
+                <!-- <select id="eaterie-dropdown">
+                    <option
+                    data-name="${eateriename}"
+                    data-parkid="${eaterieid}">
+                    Option 1
+                    </option>
+                </select> -->
+            </div>
+        </div>
+        <div  id="itinerary-and-preview-container">
+            <div id="itinerary-preview-container">
+                <!-- <h2 class="blue">Itinerary Preview</h2>
+                <div class="row" id="park-item">
+                    <h3>Park Name Here</h3>
+                    <button
+                    data-type="parkbutton"
+                    data-id="${parkid}">
+                    Details
+                    </button> -->
+                </div>
+
+                <fieldset id="weather-container">
+                    <!-- <legend>5 Day Forecast</legend>
+                    <div class="weather-item">
+                        <p>Sunny</p>
+                        <p>70/52</p>
+                    </div>
+
+                    <div class="weather-item">
+                        <p>Sunny</p>
+                        <p>70/52</p>
+                    </div>
+
+                    <div class="weather-item">
+                        <p>Sunny</p>
+                        <p>70/52</p>
+                    </div>
+
+                    <div class="weather-item">
+                        <p>Sunny</p>
+                        <p>70/52</p>
+                    </div>
+
+                    <div class="weather-item">
+                        <p>Sunny</p>
+                        <p>70/52</p>
+                    </div> -->
+                </fieldset>
+
+                <div class="row" id="attraction-item">
+                    <!-- <h3>Attraction Name Here</h3>
+                    <button
+                    data-type="attractionbutton"
+                    data-id="${attractionid}">
+                    Details
+                    </button> -->
+                </div>
+                <div class="row" id="eatery-item">
+                    <!-- <h3>Eatery Name Here</h3>
+                    <button
+                    data-type="eatery"
+                    data-id="${eateryid}">
+                    Details
+                    </button> -->
+                </div>
+
+                <button data-type="savebutton">Save Itinerary</button>
+
+            </div>
+
+            <div id="itinerary-container">
+
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
